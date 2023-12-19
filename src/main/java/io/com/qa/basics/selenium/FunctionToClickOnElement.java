@@ -1,10 +1,7 @@
 package io.com.qa.basics.selenium;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FunctionToClickOnElement {
@@ -19,7 +16,8 @@ public class FunctionToClickOnElement {
 		driver.get("https://google.co.in");
 
 		By LangLinks = By.xpath("//div[@id='SIvCob']/a");
-		ClickOnElement(LangLinks, "Français");
+		//ClickOnElement(LangLinks, "Français");
+		driver.findElement(LangLinks).click();
 
 	}
 
