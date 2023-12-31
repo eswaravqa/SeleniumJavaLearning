@@ -23,6 +23,7 @@ public class ActionsClassConcept {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[@href='/c/men/mens-clothing/jeans']")).click();
 		
+	
 		
 		//a[@href='/c/men']
 	
