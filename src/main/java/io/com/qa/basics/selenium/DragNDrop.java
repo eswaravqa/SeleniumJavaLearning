@@ -19,7 +19,10 @@ public class DragNDrop {
 				WebElement trgEle = driver.findElement(By.id("droppable")); 
 				
 				Actions act = new Actions(driver);
-				//act.clickAndHold(srcEle).moveToElement(trgEle).release().build().perform();
+				/*
+				 * act .clickAndHold(srcEle) //a1 .moveToElement(trgEle)//a2 .release() //a3
+				 * .build() .perform();
+				 */
 		
 				//The same above can be done in otherway
 				
